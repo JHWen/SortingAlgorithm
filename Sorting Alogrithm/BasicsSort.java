@@ -1,7 +1,7 @@
 public class BasicsSort {
 	/**
-	 * Ã°ÅİÅÅĞò
-	 * ´ÓĞ¡µ½´ó
+	 *å†’æ³¡æ’åº
+	 * ä»å°åˆ°å¤§
 	 * @param nums
 	 */
 	public static void BubbleSort(int[] nums) {
@@ -17,23 +17,38 @@ public class BasicsSort {
 		}
 	}
 	/**
-	 * ¸Ä½øµÄÃ°ÅİÅÅĞò
-	 * ÉèÖÃÒ»¸öflag±êÖ¾£¬ÅĞ¶ÏÅÅĞò½áÊø
-	 * ±ÜÃâ´úÂë¶àÖ´ĞĞÁË
+	 * æ”¹è¿›çš„å†’æ³¡æ’åº
+	 * è®¾ç½®flagæ ‡å¿—ï¼Œåˆ¤æ–­æ’åºæ˜¯å¦æå‰ç»“æŸ
+	 * é¿å…è¿è¡Œè¿‡å¤šæ¬¡æ•°ï¼Œä¼˜åŒ–ä»£ç 
 	 * @param nums
 	 */
 	public static void BubbleSortImprove(int[] nums) {
+		int n = nums.length;
+		for (int i = 0; i < n - 1; i++) {
+			int flag = 0;
+			for (int j = 0; j < n - i - 1; j++) {
+				if (nums[j] > nums[j + 1]) {
+					int temp = nums[j];
+					nums[j] = nums[j + 1];
+					nums[j + 1] = temp;
+					flag = 1;// è¿›è¡Œäº†å…ƒç´ äº¤æ¢çš„æ ‡å¿—
+				}
+			}
+			if (flag == 0) {
+				break;
+			}
+		}
 
 	}
 
 	/**
-	 * Ñ¡ÔñÅÅĞò  
-	 * ´ÓĞ¡µ½´óÅÅĞò
+	 * é€‰æ‹©æ’åº
+	 * ä»å°åˆ°å¤§
 	 * @param nums
 	 */
 	public static void SelectionSort(int[] nums) {
 		int n = nums.length;
-		int temp;// ÁÙÊ±±äÁ¿
+		int temp;// ä¸´æ—¶å˜é‡
 		for (int i = 0; i < n-1; i++) {
 			for (int j = i + 1; j < n; j++) {
 				if (nums[i] > nums[j]) {
@@ -48,7 +63,8 @@ public class BasicsSort {
 	public static void main(String[] args) {
 		int nums[]={8,5,2,6,9,3,1,4,0,7};
 //		SelectionSort(nums);
-		BubbleSort(nums);
+//		BubbleSort(nums);
+		BubbleSortImprove(nums);
 		for (int i = 0; i < nums.length; i++) {
 			System.out.print(nums[i]+" ");
 		}
