@@ -19,3 +19,4 @@
 ### 2.其他排序
 - 插入排序 Insertion Sort
 
+![Insertion Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Insertion-sort-example-300px.gif)
