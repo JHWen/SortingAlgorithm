@@ -1,8 +1,8 @@
 # 实现各种排序算法
-* [1.选择排序 Selection Sort](#1选择排序 Selection Sort)
-* [2.冒泡排序 Bubble Sort](#2冒泡排序 Bubble Sort)
-* [3.插入排序 Insertion Sort](#3插入排序 Insertion Sort)
-* [4.归并排序](#4归并排序 Merge Sort)
+* [1.选择排序 Selection Sort](#1选择排序-Selection-Sort)
+* [2.冒泡排序 Bubble Sort](#2冒泡排序-Bubble-Sort)
+* [3.插入排序 Insertion Sort](#3插入排序-Insertion-Sort)
+* [4.归并排序 Merge Sort](#4归并排序-Merge-Sort)
 
 
 
