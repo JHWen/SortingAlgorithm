@@ -46,4 +46,19 @@
 ### 4.归并排序 Merge Sort
 ![Merge Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Merge-sort-example-300px.gif)
 
+归并排序是采用分治法典型的例子，核心思想是先递归分解数组，再合并数组。
+
+先考虑递归分解数组，基本思路是将数组分解成left和right两部分，如果这
+两个数组内部是有序的,就合并这两个数组。那么怎么判断s数组内部是有序的呢？
+可以一直分解数组到只有一个元素，那么就可以认为数组内部是有序的，然后在
+向上合并数组。
+
+再考虑合并数组，从两个数组第一个元素开始，比较两者大小，把小的放入合并的数组中，
+指针向后移一位，继续比较直到其中一个数组为空，再把另一个数组的剩余数据加入
+到合并数组的后面。
+
+[ Robert Sedgewick的大作,解释非常清晰](http://algs4.cs.princeton.edu/22mergesort/)
+
+
+
 
