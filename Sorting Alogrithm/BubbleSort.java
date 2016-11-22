@@ -1,10 +1,12 @@
-public class BasicsSort {
+package sorting;
+
+public class BubbleSort {
 	/**
-	 *冒泡排序
+	 * 冒泡排序 
 	 * 从小到大
 	 * @param nums
 	 */
-	public static void BubbleSort(int[] nums) {
+	public static void bubbleSort(int[] nums) {
 		int n = nums.length;
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {
@@ -16,10 +18,10 @@ public class BasicsSort {
 			}
 		}
 	}
+
 	/**
-	 * 改进的冒泡排序
-	 * 设置flag标志，判断排序是否提前结束
-	 * 避免运行过多次数，优化代码
+	 * 改进的冒泡排序 
+	 * 设置flag标志，判断排序是否提前结束 避免运行过多次数，优化代码
 	 * @param nums
 	 */
 	public static void BubbleSortImprove(int[] nums) {
@@ -38,36 +40,14 @@ public class BasicsSort {
 				break;
 			}
 		}
-
-	}
-
-	/**
-	 * 选择排序
-	 * 从小到大
-	 * @param nums
-	 */
-	public static void SelectionSort(int[] nums) {
-		int n = nums.length;
-		int temp;// 临时变量
-		for (int i = 0; i < n-1; i++) {
-			for (int j = i + 1; j < n; j++) {
-				if (nums[i] > nums[j]) {
-					temp = nums[i];
-					nums[i] = nums[j];
-					nums[j] = temp;
-				}
-			}
-		}
 	}
 
 	public static void main(String[] args) {
-		int nums[]={8,5,2,6,9,3,1,4,0,7};
-//		SelectionSort(nums);
-//		BubbleSort(nums);
+		int nums[] = { 8, 5, 2, 6, 9, 3, 1, 4, 0, 7 };
+		// BubbleSort(nums);
 		BubbleSortImprove(nums);
 		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
+			System.out.print(nums[i] + " ");
 		}
 	}
-
 }
