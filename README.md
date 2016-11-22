@@ -1,8 +1,8 @@
 # 实现各种排序算法
-* [1.选择排序 Selection Sort](#1)
-* [2.冒泡排序 Bubble Sort](#2)
-* [3.插入排序 Insertion Sort](#3)
-* [4.归并排序](#4)
+* [1.选择排序 Selection Sort](#1.选择排序 Selection Sort)
+* [2.冒泡排序 Bubble Sort](#2.冒泡排序 Bubble Sort)
+* [3.插入排序 Insertion Sort](#3.插入排序 Insertion Sort)
+* [4.归并排序](#4.归并排序 Merge Sort)
 
 
 
@@ -43,7 +43,7 @@
 最好的情况是n-1次比较,0次后移；最坏的情况是n(n-1)/2次比较，n(n-1)/2次后移。
 插入排序适合数据量小的排序
 
-### 4.归并排序
+### 4.归并排序 Merge Sort
 ![Merge Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Merge-sort-example-300px.gif)
 
 
