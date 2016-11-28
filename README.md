@@ -61,6 +61,8 @@
 [ Robert Sedgewick的大作,解释非常清晰](http://algs4.cs.princeton.edu/22mergesort/)
 
 ### 5.快速排序 Quick Sort
+![Quick Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Quicksort-example.gif)
+
 
 
 
