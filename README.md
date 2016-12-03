@@ -63,6 +63,15 @@
 ### 5.快速排序 Quick Sort
 ![Quick Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Quicksort-example.gif)
 
+核心:快排是一种采用分治思想的排序算法，主要分为一下三个步骤
 
+1. 定基准——首先随机选择一个元素作为基准(一般取第一个或者最后一个元素)
+
+2. 划分区——所有比基准小的元素置于基准左侧，比基准大的元素置于基准右侧
+
+3. 递归调用——递归地调用此切分过程
+
+快速排序是不稳定的，最好的情况下时间复杂度位O(nlogn),最坏的情况下
+时间复杂度为O(n^2)
 
 
