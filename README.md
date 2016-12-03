@@ -4,6 +4,7 @@
 * [3.插入排序 Insertion Sort](#3插入排序-insertion-sort)
 * [4.归并排序 Merge Sort](#4归并排序-merge-sort)
 * [5.快速排序 Quick Sort](#5快速排序-quick-sort)
+* [6.堆排序 Heap Sort](#5堆排序-heap-sort)
 
 
 
@@ -75,3 +76,6 @@
 时间复杂度为O(n^2)
 
 
+### 6.堆排序 Heap Sort
+
+![Quick Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Heapsort-example.gif)
