@@ -79,3 +79,11 @@
 ### 6.堆排序 Heap Sort
 
 ![Quick Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Heapsort-example.gif)
+
+核心：构建大顶堆（小顶堆），大顶堆就是每棵子树的根节点大于其左右子树。
+1. 初始化构建大顶堆（小顶堆）
+
+2. 把堆顶元素与堆最后一个元素交换，堆大小减1。
+
+3. 调整当前堆为大顶堆（小顶堆），重复第2步操作直至堆大小为1.
+
