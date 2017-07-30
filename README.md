@@ -5,7 +5,7 @@
 * [4.归并排序 Merge Sort](#4归并排序-merge-sort)
 * [5.快速排序 Quick Sort](#5快速排序-quick-sort)
 * [6.堆排序 Heap Sort](#6堆排序-heap-sort)
-
+* [7.总结 summary](#7排序算法总结)
 
 
 **所有的讨论都是基于从小到大的排序**
@@ -86,4 +86,16 @@
 2. 把堆顶元素与堆最后一个元素交换，堆大小减1。
 
 3. 调整当前堆为大顶堆（小顶堆），重复第2步操作直至堆大小为1.
+
+### 7.排序算法总结
+
+![summary](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Sort-summary.jpg)
+
+### 8.测试结果
+
+测试平台：Intel i5,java 1.8
+待排序数组数据量：2w  随机数范围：100000
+
+![result](https://github.com/JHWen/SortingAlogrithm/blob/master/images/test_result.PNG)
+
 
