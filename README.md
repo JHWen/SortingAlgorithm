@@ -1,4 +1,4 @@
-# 经典排序算法的实现与总结
+# 排序算法的实现与总结
 * [1.选择排序 Selection Sort](#1选择排序-selection-sort)
 * [2.冒泡排序 Bubble Sort](#2冒泡排序-bubble-sort)
 * [3.插入排序 Insertion Sort](#3插入排序-insertion-sort)
